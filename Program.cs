@@ -21,7 +21,7 @@ namespace Labb_2_2._0
             products.Add(new Product("Monster", 15));
             products.Add(new Product("Nocco", 20));
             products.Add(new Product("Celsius", 19));
-            //Add products here
+            
             
             users.Add(new User("Knatte", "123"));
             users.Add(new User("Fnatte", "321"));
@@ -32,7 +32,7 @@ namespace Labb_2_2._0
         public static void WelcomeMenu()
         {
             Console.Clear();
-            Console.WriteLine("Welcome to The Awesome Shop!");
+            Console.WriteLine("Välkommen till Smått & Gott!");
             Console.WriteLine("----MENU----");
             Console.WriteLine("1. SIGN IN");
             Console.WriteLine("2. REGISTER");
