@@ -16,10 +16,16 @@ namespace Labb_2_2._0
         
         public static void Main(string[] args)
         {
+           
+            
             products.Add(new Product("Cola Zero", 10));
+            
             products.Add(new Product("Redbull", 15));
+            
             products.Add(new Product("Monster", 15));
+            
             products.Add(new Product("Nocco", 20));
+            
             products.Add(new Product("Celsius", 19));
             
             
@@ -28,9 +34,12 @@ namespace Labb_2_2._0
             users.Add(new User("Tjatte", "213"));
             
             WelcomeMenu();
+
+            
         }
         public static void WelcomeMenu()
         {
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.Clear();
             Console.WriteLine("Välkommen till Smått & Gott!");
             Console.WriteLine("----MENU----");
@@ -243,7 +252,7 @@ namespace Labb_2_2._0
         public static void Confirmation()
         {
             Console.Clear();
-            Console.WriteLine($"Thanks for your order, confirmation will be sent to: {loggedInUser.Name}@iths.se");
+            Console.WriteLine($"Your order coffermation will be sent to: {loggedInUser.Name}@gmail.com");
             Console.ReadKey();
         }
 
