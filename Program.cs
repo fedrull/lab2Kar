@@ -128,6 +128,8 @@ namespace Labb_2_2._0
                     Checkout();
                     break;
                 case "4":
+                    loggedInUser = null;
+                    loggedInUser.Cart.Clear();
                     WelcomeMenu(); 
                     break;
                 default:
